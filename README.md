@@ -35,7 +35,6 @@ Designed with simplicity and ease of use in mind, Shadow Query provides a straig
 - Linux
 - Windows
 - macOS
-- Termux (Android)
 
 ---
 
@@ -62,19 +61,6 @@ cd Shadow-Query
 
 py -m pip install dnspython requests rich
 py shadow_query.py -d example.com
-
-</p>---
-Termux (Android)
-
-pkg update
-pkg install python git -y
-
-git clone https://github.com/0xZqSii/shadow_query.git
-
-cd Shadow-Query
-
-python -m pip install dnspython requests rich
-python shadow_query.py -d example.com
 
 </p>---
 macOS
