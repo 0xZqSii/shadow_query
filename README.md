@@ -47,6 +47,7 @@ Python 3 is required.
 Linux
 
 git clone https://github.com/0xZqSii/shadow_query.git
+
 cd Shadow-Query
 
 python3 -m pip install dnspython requests rich
@@ -56,6 +57,7 @@ python3 shadow_query.py -d example.com
 Windows
 
 git clone https://github.com/0xZqSii/shadow_query.git
+
 cd Shadow-Query
 
 py -m pip install dnspython requests rich
@@ -68,6 +70,7 @@ pkg update
 pkg install python git -y
 
 git clone https://github.com/0xZqSii/shadow_query.git
+
 cd Shadow-Query
 
 python -m pip install dnspython requests rich
@@ -77,6 +80,7 @@ python shadow_query.py -d example.com
 macOS
 
 git clone https://github.com/0xZqSii/shadow_query.git
+
 cd Shadow-Query
 
 python3 -m pip install dnspython requests rich
