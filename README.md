@@ -1,4 +1,4 @@
-🌑 Shadow Query
+# 🌑 Shadow Query
 
 DNS Reconnaissance & Lookup Tool
 
@@ -10,7 +10,7 @@ DNS Reconnaissance & Lookup Tool
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
 </p>---
 
-📌 Overview
+### 📌 Overview
 
 Shadow Query is a lightweight DNS reconnaissance tool written in Python. It allows users to query DNS records, use DNS-over-HTTPS (DoH), specify custom DNS servers, and test DNS zone transfer (AXFR) capabilities.
 
@@ -18,7 +18,7 @@ Designed with simplicity and ease of use in mind, Shadow Query provides a straig
 
 ---
 
-✨ Features
+### ✨ Features
 
 - DNS Record Lookup
 - DNS-over-HTTPS (DoH) using Cloudflare
@@ -30,7 +30,7 @@ Designed with simplicity and ease of use in mind, Shadow Query provides a straig
 
 ---
 
-🖥️ Supported Platforms
+### 🖥️ Supported Platforms
 
 - Linux
 - Windows
@@ -39,7 +39,7 @@ Designed with simplicity and ease of use in mind, Shadow Query provides a straig
 
 ---
 
-⚙️ Installation
+### ⚙️ Installation
 
 Python 3 is required.
 
@@ -88,37 +88,37 @@ python3 shadow_query.py -d example.com
 
 ---
 
-🚀 Usage
+### 🚀 Usage
 
-Basic DNS Lookup
+#### Basic DNS Lookup
 
 python shadow_query.py -d example.com
 
-Query a Specific Record
+#### Query a Specific Record
 
 python shadow_query.py -d example.com -t A
 
-Use a Custom DNS Server
+#### Use a Custom DNS Server
 
 python shadow_query.py -d example.com -t A -s 1.1.1.1
 
-DNS-over-HTTPS (DoH)
+#### DNS-over-HTTPS (DoH)
 
 python shadow_query.py -d example.com --doh
 
-DNS Zone Transfer (AXFR)
+#### DNS Zone Transfer (AXFR)
 
 python shadow_query.py -d example.com --axfr -s DNS_SERVER
 
-Query Multiple Domains
+#### Query Multiple Domains
 
 python shadow_query.py -d example.com example.org -t A
 
 ---
 
-🧰 Command-Line Options
+### 🧰 Command-Line Options
 
-Option| Description
+#### Option| Description
 "-d", "--domain"| Specify one or more domains to query
 "-t", "--type"| Specify a DNS record type
 "-s", "--server"| Specify a custom DNS server
@@ -127,7 +127,7 @@ Option| Description
 
 ---
 
-🛠️ Built With
+### 🛠️ Built With
 
 - Python
 - dnspython
@@ -137,7 +137,7 @@ Option| Description
 
 ---
 
-📂 Project Structure
+### 📂 Project Structure
 
 Shadow-Query/
 │
@@ -146,7 +146,7 @@ Shadow-Query/
 
 ---
 
-⚠️ Disclaimer
+### ⚠️ Disclaimer
 
 Shadow Query is intended for educational purposes and authorized security testing only.
 
