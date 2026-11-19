@@ -51,6 +51,7 @@ cd Shadow-Query
 python3 -m pip install dnspython requests rich
 python3 shadow_query.py -d example.com
 
+</p>---
 Windows
 
 git clone https://github.com/USERNAME/Shadow-Query.git
@@ -59,6 +60,7 @@ cd Shadow-Query
 py -m pip install dnspython requests rich
 py shadow_query.py -d example.com
 
+</p>---
 Termux (Android)
 
 pkg update
@@ -70,6 +72,7 @@ cd Shadow-Query
 python -m pip install dnspython requests rich
 python shadow_query.py -d example.com
 
+</p>---
 macOS
 
 git clone https://github.com/USERNAME/Shadow-Query.git
